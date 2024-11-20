@@ -1,0 +1,111 @@
+h1{
+    color: gold;
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    
+    
+}
+
+.padre{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+nav{
+  position: absolute;
+  right: 20px;
+  top: 51px;
+}
+
+nav li{
+  display: inline;
+}
+
+li{
+    color: gold;
+}
+
+h2{
+    color:rgb(144, 177, 207);
+    font-size: 40px;
+    transition: transform 4s ease;
+}
+
+.bailando{
+    color: rgb(208, 135, 222);
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font: weight 400px;
+    font-style: normal;
+}
+  
+header{
+    background-color: rgb(208, 135, 222);
+    position: relative;
+    height: 140px;
+}
+
+footer{
+    background-color:rgb(208, 135, 222) ;
+  }
+  
+.limite{
+max-width: 1100px;
+background-color: rgb(168, 37, 168);
+margin: 0 auto
+}
+  
+.card{
+    background-color:rgb(208, 135, 222);
+    width: 300px;
+    border:5px solid gold;
+    padding: 15px;
+    margin: 0 auto;
+     border-radius: 90px;
+     text-align: center;
+      
+}
+
+
+.dorado{
+    color: gold ;
+}
+
+@media screen and (max-width:600px) {
+  h1{
+      font-size: 40px;
+  }
+
+  nav{
+      position: absolute;
+      left:5px;
+      top:80px;
+  
+  }
+}
+
+a{
+color: gold;
+text-decoration: none;
+}
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+h2:hover{
+  color: white;
+  transform: scale(0.7);
+}
+h1:hover{
+  transition: transform 3s ease;
+}
+
+img{
+  max-width: 100%;
+ 
+}
